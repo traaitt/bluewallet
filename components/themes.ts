@@ -9,67 +9,67 @@ export const BlueDefaultTheme = {
   colors: {
     ...DefaultTheme.colors,
     borderWidth: 0.5,
-    brandingColor: '#ffffff',
-    customHeader: '#ffffff',
-    foregroundColor: '#0c2550',
-    borderTopColor: 'rgba(0, 0, 0, 0.1)',
-    buttonBackgroundColor: '#ccddf9',
-    buttonTextColor: '#0c2550',
-    secondButtonTextColor: '#50555C',
-    buttonAlternativeTextColor: '#2f5fb3',
-    buttonDisabledBackgroundColor: '#eef0f4',
-    buttonDisabledTextColor: '#9aa0aa',
-    inputBorderColor: '#d2d2d2',
-    inputBackgroundColor: '#f5f5f5',
-    alternativeTextColor: '#9aa0aa',
-    alternativeTextColor2: '#0f5cc0',
-    buttonBlueBackgroundColor: '#ccddf9',
-    buttonGrayBackgroundColor: '#EEEEEE',
-    incomingBackgroundColor: '#d2f8d6',
-    incomingForegroundColor: '#37c0a1',
-    outgoingBackgroundColor: '#f8d2d2',
-    outgoingForegroundColor: '#d0021b',
-    successColor: '#37c0a1',
-    failedColor: '#ff0000',
-    placeholderTextColor: '#81868e',
-    shadowColor: '#000000',
-    inverseForegroundColor: '#ffffff',
-    hdborderColor: '#68BBE1',
-    hdbackgroundColor: '#ECF9FF',
-    lnborderColor: '#FFB600',
-    lnbackgroundColor: '#FFFAEF',
-    background: '#FFFFFF',
-    lightButton: '#eef0f4',
-    ballReceive: '#d2f8d6',
-    ballOutgoing: '#f8d2d2',
-    lightBorder: '#ededed',
-    ballOutgoingExpired: '#EEF0F4',
-    modal: '#ffffff',
-    formBorder: '#d2d2d2',
-    modalButton: '#ccddf9',
-    darkGray: '#9AA0AA',
-    scanLabel: '#9AA0AA',
-    feeText: '#81868e',
-    feeLabel: '#d2f8d6',
-    feeValue: '#37c0a1',
-    feeActive: '#d2f8d6',
-    labelText: '#81868e',
-    cta2: '#062453',
-    outputValue: '#13244D',
-    elevated: '#ffffff',
-    mainColor: '#CFDCF6',
-    success: '#ccddf9',
-    successCheck: '#0f5cc0',
-    msSuccessBG: '#37c0a1',
-    msSuccessCheck: '#ffffff',
-    newBlue: '#007AFF',
-    redBG: '#F8D2D2',
-    redText: '#D0021B',
-    changeBackground: '#FDF2DA',
-    changeText: '#F38C47',
-    receiveBackground: '#D1F9D6',
-    receiveText: '#37C0A1',
-    navigationBarColor: '#FFFFFF',
+    brandingColor: '#E0E0E0', // Light gray for branding to stand out
+    customHeader: '#212121', // Slightly lighter than base for header distinction
+    foregroundColor: '#E0E0E0', // Light gray for primary text
+    borderTopColor: 'rgba(255, 255, 255, 0.1)', // Subtle white for borders
+    buttonBackgroundColor: '#2A2A2A', // Dark gray for buttons
+    buttonTextColor: '#E0E0E0', // Light gray for button text
+    secondButtonTextColor: '#B0B0B0', // Medium gray for secondary button text
+    buttonAlternativeTextColor: '#4A90E2', // Blue for alternative button text
+    buttonDisabledBackgroundColor: '#333333', // Darker gray for disabled buttons
+    buttonDisabledTextColor: '#666666', // Muted gray for disabled text
+    inputBorderColor: '#424242', // Dark gray for input borders
+    inputBackgroundColor: '#212121', // Slightly lighter than base for inputs
+    alternativeTextColor: '#B0B0B0', // Medium gray for alternative text
+    alternativeTextColor2: '#4A90E2', // Blue for secondary alternative text
+    buttonBlueBackgroundColor: '#4A90E2', // Blue for blue buttons
+    buttonGrayBackgroundColor: '#333333', // Dark gray for gray buttons
+    incomingBackgroundColor: '#263238', // Dark teal for incoming messages
+    incomingForegroundColor: '#4CAF50', // Green for incoming text
+    outgoingBackgroundColor: '#37474F', // Dark gray-blue for outgoing messages
+    outgoingForegroundColor: '#EF5350', // Red for outgoing text
+    successColor: '#4CAF50', // Green for success
+    failedColor: '#EF5350', // Red for errors
+    placeholderTextColor: '#757575', // Medium gray for placeholders
+    shadowColor: '#000000', // Black for shadows
+    inverseForegroundColor: '#191919', // Base color for inverse text
+    hdborderColor: '#4A90E2', // Blue for HD borders
+    hdbackgroundColor: '#263238', // Dark teal for HD background
+    lnborderColor: '#FFB300', // Amber for LN borders
+    lnbackgroundColor: '#3E2723', // Dark amber for LN background
+    background: '#191919', // Base dark theme color
+    lightButton: '#333333', // Dark gray for light buttons
+    ballReceive: '#263238', // Dark teal for receive balls
+    ballOutgoing: '#37474F', // Dark gray-blue for outgoing balls
+    lightBorder: '#424242', // Dark gray for light borders
+    ballOutgoingExpired: '#333333', // Dark gray for expired balls
+    modal: '#212121', // Slightly lighter than base for modals
+    formBorder: '#424242', // Dark gray for form borders
+    modalButton: '#db9ffd', // Blue for modal buttons
+    darkGray: '#666666', // Darker gray for dark gray elements
+    scanLabel: '#B0B0B0', // Medium gray for scan labels
+    feeText: '#757575', // Medium gray for fee text
+    feeLabel: '#263238', // Dark teal for fee labels
+    feeValue: '#4CAF50', // Green for fee values
+    feeActive: '#263238', // Dark teal for active fees
+    labelText: '#757575', // Medium gray for label text
+    cta2: '#4A90E2', // Blue for secondary CTAs
+    outputValue: '#E0E0E0', // Light gray for output values
+    elevated: '#212121', // Slightly lighter than base for elevated surfaces
+    mainColor: '#4A90E2', // Blue for main color
+    success: '#4CAF50', // Green for success
+    successCheck: '#4A90E2', // Blue for success checks
+    msSuccessBG: '#263238', // Dark teal for multi-success background
+    msSuccessCheck: '#E0E0E0', // Light gray for multi-success check
+    newBlue: '#4A90E2', // Blue for new blue elements
+    redBG: '#37474F', // Dark gray-blue for red background
+    redText: '#EF5350', // Red for red text
+    changeBackground: '#3E2723', // Dark amber for change background
+    changeText: '#FFB300', // Amber for change text
+    receiveBackground: '#263238', // Dark teal for receive background
+    receiveText: '#4CAF50', // Green for receive text
+    navigationBarColor: '#212121', // Slightly lighter than base for nav bar
   },
 };
 

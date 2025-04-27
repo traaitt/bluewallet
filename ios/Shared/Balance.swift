@@ -52,7 +52,7 @@ extension Decimal {
             }
         default:
             let value = self / Decimal(100_000_000)
-            return "\(value) BTC"
+            return "\(value) TRRXITTE"
         }
     }
 }

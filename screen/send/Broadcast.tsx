@@ -1,5 +1,5 @@
 import React, { useCallback, useState } from 'react';
-import * as bitcoin from 'bitcoinjs-lib';
+import * as bitcoin from '@traaitt/bitcoinjs-lib';
 import { ActivityIndicator, Keyboard, Linking, StyleSheet, TextInput, View } from 'react-native';
 
 import * as BlueElectrum from '../../blue_modules/BlueElectrum';

@@ -1,7 +1,7 @@
 import BIP32Factory from 'bip32';
 import bip38 from 'bip38';
 import * as bip39 from 'bip39';
-import * as bitcoin from 'bitcoinjs-lib';
+import * as bitcoin from '@traaitt/bitcoinjs-lib';
 import React, { Component } from 'react';
 import { Linking, ScrollView, StyleSheet, View } from 'react-native';
 // @ts-ignore theres no type declaration for this

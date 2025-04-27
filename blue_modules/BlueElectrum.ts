@@ -1,5 +1,5 @@
 import BigNumber from 'bignumber.js';
-import * as bitcoin from 'bitcoinjs-lib';
+import * as bitcoin from '@traaitt/bitcoinjs-lib';
 import DefaultPreference from 'react-native-default-preference';
 import RNFS from 'react-native-fs';
 import Realm from 'realm';
@@ -81,14 +81,14 @@ export const ELECTRUM_SSL_PORT = 'electrum_ssl_port';
 export const ELECTRUM_SERVER_HISTORY = 'electrum_server_history';
 const ELECTRUM_CONNECTION_DISABLED = 'electrum_disabled';
 const storageKey = 'ELECTRUM_PEERS';
-const defaultPeer = { host: 'electrum1.bluewallet.io', ssl: 443 };
+const defaultPeer = { host: 'electrum-en.trrxitte.com', ssl: 8000 };
 export const hardcodedPeers: Peer[] = [
-  { host: 'mainnet.foundationdevices.com', ssl: 50002 },
+  { host: 'electrum-en.trrxitte.com', ssl: 8000 },
   // { host: 'bitcoin.lukechilds.co', ssl: 50002 },
   // { host: 'electrum.jochen-hoenicke.de', ssl: '50006' },
-  { host: 'electrum1.bluewallet.io', ssl: 443 },
-  { host: 'electrum.acinq.co', ssl: 50002 },
-  { host: 'electrum.bitaroo.net', ssl: 50002 },
+  { host: 'electrum-hk.trrxitte.com', ssl: 8000 },
+  { host: 'electrum-ffm.trrxitte.com', ssl: 8000 },
+  { host: 'electrum-ar.trrxitte.com', ssl: 8000 },
 ];
 
 export const suggestedServers: Peer[] = hardcodedPeers.map(peer => ({

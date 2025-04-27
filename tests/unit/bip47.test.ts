@@ -1,6 +1,6 @@
 import BIP47Factory from '@spsina/bip47';
 import assert from 'assert';
-import * as bitcoin from 'bitcoinjs-lib';
+import * as bitcoin from '@traaitt/bitcoinjs-lib';
 import { ECPairFactory } from 'ecpair';
 
 import ecc from '../../blue_modules/noble_ecc';

@@ -1,7 +1,7 @@
 import BIP32Factory, { BIP32Interface } from 'bip32';
 import * as bip39 from 'bip39';
-import * as bitcoin from 'bitcoinjs-lib';
-import { Psbt, Transaction } from 'bitcoinjs-lib';
+import * as bitcoin from '@traaitt/bitcoinjs-lib';
+import { Psbt, Transaction } from '@traaitt/bitcoinjs-lib';
 import b58 from 'bs58check';
 import { CoinSelectOutput, CoinSelectReturnInput, CoinSelectTarget } from 'coinselect';
 import createHash from 'create-hash';

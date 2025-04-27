@@ -1,4 +1,4 @@
-import bitcoin from 'bitcoinjs-lib';
+import bitcoin from '@traaitt/bitcoinjs-lib';
 import { CoinSelectOutput, CoinSelectReturnInput, CoinSelectUtxo } from 'coinselect';
 
 import { BitcoinUnit } from '../../models/bitcoinUnits';

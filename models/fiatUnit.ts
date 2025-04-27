@@ -2,16 +2,7 @@ import { fetch } from '../util/fetch';
 import untypedFiatUnit from './fiatUnits.json';
 
 export const FiatUnitSource = {
-  Coinbase: 'Coinbase',
-  CoinDesk: 'CoinDesk',
-  CoinGecko: 'CoinGecko',
-  Kraken: 'Kraken',
-  Yadio: 'Yadio',
-  YadioConvert: 'YadioConvert',
-  Exir: 'Exir',
-  coinpaprika: 'coinpaprika',
-  Bitstamp: 'Bitstamp',
-  BNR: 'BNR',
+  CoinGecko: 'CoinGecko'
 } as const;
 
 const handleError = (source: string, ticker: string, error: Error) => {

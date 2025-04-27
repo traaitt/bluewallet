@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useRoute } from '@react-navigation/native';
 import BigNumber from 'bignumber.js';
-import * as bitcoin from 'bitcoinjs-lib';
+import * as bitcoin from '@traaitt/bitcoinjs-lib';
 import { FlatList, StyleSheet, Text, TouchableOpacity, View, LayoutAnimation } from 'react-native';
 import { Icon } from '@rneui/themed';
 

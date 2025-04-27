@@ -141,7 +141,7 @@ export const BlueLoading = props => {
 
 export function BlueBigCheckmark({ style = {} }) {
   const defaultStyles = {
-    backgroundColor: '#ccddf9',
+    backgroundColor: '#191919',
     width: 120,
     height: 120,
     borderRadius: 60,
